@@ -1,0 +1,95 @@
+/* Stili di base per la pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Stile per l'intestazione */
+header {
+    background-color: #08233e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #005bb5;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Stile per il contenitore principale */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #08233e;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+/* Stile per il footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* styles.css */
+
+/* Nascondi tutte le sezioni di default */
+.tab-content {
+    display: none;
+}
+
+/* Stili aggiuntivi per i link nella navbar */
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #66cc66;
+    text-decoration: underline;
+}
+
+/* Aggiungi un piccolo effetto di transizione */
+.tab-content {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Stili aggiuntivi per i tab selezionati, se necessario */
+nav a.active {
+    color: #ff6600;
+}
+
+
+
